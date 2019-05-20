@@ -1,0 +1,56 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  width: 100%;
+
+  color: #aaf0d1;
+
+  font-size: 2em;
+}
+
+.item-text {
+  display: inline-block;
+
+  overflow-x: scroll;
+  overflow-y: visible;
+
+  width: 90%;
+
+  padding-left: 10px;
+  margin-top: -0.25em;
+
+  vertical-align: middle;
+
+  line-height: 2rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.item-text::-webkit-scrollbar {
+  display: none;
+}
+
+.delete-task {
+  display: inline-block;
+
+  visibility: hidden;
+
+  color: #6dd6a7;
+}
+
+.todo-item:hover .delete-task {
+  visibility: visible;
+}
+
+.item-crossed {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 992px) {
+  .todo-item {
+    font-size: 1.5rem;
+  }
+}

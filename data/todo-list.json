@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        { 
+            "id": "c52b7ab4-2176-4257-a65e-264c3926f4ab",
+            "label": "Finish the test task for JetBrains internship",
+            "completed": true
+        },
+        { 
+            "id": "1ad16fd3-2c30-4db6-8a8e-747e4a882027",
+            "label": "Feed the cat",
+            "completed": false
+        },
+        { 
+            "id": "3790f546-be70-4c62-9614-1505aad61450",
+            "label": "Buy groceries",
+            "completed": false
+        }
+      ]
+}

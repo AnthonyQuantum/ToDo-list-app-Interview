@@ -1,0 +1,130 @@
+@import "@jetbrains/ring-ui/components/global/variables.css";
+
+html,
+.app-root {
+  --mint: #aaf0d1;
+  --dark-mint: #6dd6a7;
+
+  height: 100%;
+}
+
+.hover_a79:not(.error_471) {
+  background-color: #eee !important;
+}
+
+.app-root {
+  margin: 0;
+  padding: 0;
+
+  background: var(--mint);
+
+  font-family: var(--ring-font-family);
+  font-size: var(--ring-font-size);
+  line-height: var(--ring-line-height);
+}
+
+.app-content {
+  margin: calc(var(--ring-unit) * 4);
+}
+
+div .main-header {
+  padding: 10px 0;
+
+  text-align: center;
+
+  color: #fff;
+  text-shadow: 0 0 5px var(--dark-mint);
+
+  font-size: 5em;
+  line-height: 1;
+}
+
+div .input-group {
+  display: block;
+
+  width: fit-content;
+
+  margin: 25px auto;
+}
+
+div .input-group > * {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.task-input {
+  display: inline-block;
+
+  margin: 0;
+  padding-left: 5px;
+
+  background: #fff;
+}
+
+.add-button {
+  display: inline-block;
+
+  min-height: 32px;
+
+  color: #fff;
+
+  background: var(--dark-mint);
+  box-shadow: none;
+}
+
+.list-options {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  max-width: 60%;
+  margin: auto;
+  padding: 5px;
+
+  cursor: default;
+
+  color: #fff;
+  text-shadow: 0 0 10px var(--dark-mint);
+
+  font-size: 1.25rem;
+}
+
+.list-option {
+  padding: 0 10px;
+}
+
+.list-option_active {
+  text-decoration: underline;
+}
+
+.sort-dropdown span {
+  color: #fff;
+  text-shadow: 0 0 5px var(--dark-mint);
+}
+
+.no-tasks {
+  width: fit-content;
+  margin: auto;
+  padding: 20px 0;
+
+  color: #fff;
+  text-shadow: 0 0 10px var(--dark-mint);
+
+  font-size: 1.5rem;
+}
+
+.todo-list {
+  max-width: 60%;
+  margin: auto;
+
+  background: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .todo-list,
+  .list-options {
+    max-width: 90%;
+  }
+}
