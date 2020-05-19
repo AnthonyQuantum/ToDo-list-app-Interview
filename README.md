@@ -7,5 +7,4 @@ React, Ring UI
 
 ## Screenshots
 
-![Desktop](./screenshots/desktop.png)
 ![Mobile](./screenshots/mobile.png)
